@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.aersia-vip" name="Aersia VIP" version="0.0.3" provider-name="gadzek">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Add-on for playing Aersia Vidya Intarweb Playlists in Kodi</summary>
+        <license>GNU General Public License, v2</license>
+        <description lang="en">It's just an early version I made in a few hours by modifying example audio plugin. Can (and probably will) crash, please be gentle.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
